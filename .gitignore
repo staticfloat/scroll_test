@@ -1,0 +1,10 @@
+.DS_Store
+.ipynb_checkpoints
+build/
+*.stat
+*.int16
+*.int32
+*.float32
+*.float64
+*.sc16
+*.complex64
