@@ -50,7 +50,7 @@ void ScrollTest::drawEvent() {
 void ScrollTest::keyPressEvent(KeyEvent& event) {
     switch( event.key() ) {
         case KeyEvent::Key::W: {
-            if( event.modifiers() & InputEvent::Modifier::AltGr )
+            if( event.modifiers() & InputEvent::Modifier::Super )
                 this->exit();
         }   break;
         default:
